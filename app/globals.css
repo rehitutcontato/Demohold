@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --font-serif: var(--font-serif, "Cormorant Garamond", Georgia, serif);
+  --font-sans: var(--font-sans, "Inter", sans-serif);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom smooth dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1c222e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c4a482;
+}
